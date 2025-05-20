@@ -122,7 +122,7 @@ api_key = st.sidebar.text_input("Enter your Football-Data.org API Key:", type="p
 
 if not api_key:
     st.sidebar.warning("Please enter your API key to fetch data.")
-    st.info("Welcome! Please enter your Football-Data.org API key in the sidebar to load soccer data.")
+    st.info("YOYOYO! Please enter your Football-Data.org API key to fetch data. // Porfavor ingresa tu API key de Football-Data.org (para los monolingues).")
     st.stop()
 
 # Data fetching 
@@ -241,4 +241,4 @@ else:
             st.write(f"No match data found for {team_name} in the selected dataset.")
 
 st.sidebar.markdown("---")
-st.sidebar.info("App by AI. Data from Football-Data.org.")
+st.sidebar.info("App by Carlos Araújo. Data from Football-Data.org.")
