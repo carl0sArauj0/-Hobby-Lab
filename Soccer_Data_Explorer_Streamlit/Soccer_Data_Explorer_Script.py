@@ -1,3 +1,8 @@
+# Wassup, to run this file you'll have to create an account on https://www.football-data.org/ and get an API key for it
+# Then you'll have to create a new file and copy the code from here
+# Finally you'll have to run the file with streamlit run Soccer_Data_Explorer_Script.py
+# carl0sArauj0 was here
+
 import streamlit as st
 import requests
 import pandas as pd
